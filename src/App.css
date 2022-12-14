@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  background-color: rgba(13, 4, 4, 0.781);
+  color: #fff;
+  height: 100vh;
+  background: url("img/wallpaperbetter\ \(4\).jpg");
+  background-size: cover;
+}
+
+.Header {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(0, 0, 0, 0.7);
+}
+
+.title {
+  font-size: 3rem;
+  color: aquamarine;
+  margin-bottom: 3rem;
+  font-family: cursive;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.input {
+  background-color: transparent;
+  color: #fff;
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid aquamarine;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.button {
+  padding: 8px;
+  cursor: pointer;
+  background-color: tomato;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.name {
+  font-size: 28px;
+  color: tomato;
+}
+
+.temp {
+  font-size: 4rem;
+  font-family: cursive;
+}
+
+.temp_min-max {
+  color: rgba(255, 255, 255, 0.544);
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.icon {
+  width: 7rem;
+}
+
+.condition {
+  font-style: italic;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
