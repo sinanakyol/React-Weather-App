@@ -60,8 +60,8 @@ function Weather() {
 
           {/* Temperature-Min/Max Celcius*/}
           <p className="temp_min-max">
-            {Math.round(weather.main.temp_min)} °C /{" "}
-            {Math.round(weather.main.temp_max)} °C
+            {Math.round(weather.main.temp_min)} ° /{" "}
+            {Math.round(weather.main.temp_max)} °
           </p>
         </div>
       ) : (
