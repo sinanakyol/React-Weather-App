@@ -63,9 +63,12 @@
 }
 
 .temp_min-max {
-  color: rgba(255, 255, 255, 0.544);
   font-size: 18px;
   font-family: cursive;
+}
+
+.temp_min {
+  color: rgba(255, 255, 255, 0.544);
 }
 
 .icon {

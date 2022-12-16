@@ -20,6 +20,7 @@ function Weather() {
   };
 
   console.log({ weather });
+
   return (
     <div>
       <h1 className="title">Weather App</h1>
@@ -60,8 +61,10 @@ function Weather() {
 
           {/* Temperature-Min/Max Celcius*/}
           <p className="temp_min-max">
-            {Math.round(weather.main.temp_min)} ° /{" "}
-            {Math.round(weather.main.temp_max)} °
+            {Math.round(weather.main.temp_max)} °{" "}
+            <span className="temp_min">
+              {Math.round(weather.main.temp_min)} °
+            </span>
           </p>
         </div>
       ) : (
