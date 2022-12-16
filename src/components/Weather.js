@@ -1,6 +1,6 @@
 import { useState } from "react";
-
 import axios from "axios";
+import Time from "./Time";
 
 function Weather() {
   const [input, setInput] = useState("");
@@ -43,6 +43,9 @@ function Weather() {
           <p className="name">
             {weather.name}, {weather.sys.country}
           </p>
+
+          {/* Time */}
+          <Time />
 
           {/* icon */}
           <div>
