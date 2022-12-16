@@ -34,7 +34,7 @@
 
 .input {
   background-color: transparent;
-  color: #fff;
+  color: tomato;
   padding: 5px;
   border: none;
   outline: none;
@@ -72,11 +72,21 @@
 }
 
 .icon {
-  width: 7rem;
+  width: 8rem;
 }
 
 .condition {
   font-style: italic;
   font-size: 18px;
   margin-bottom: 1rem;
+}
+
+.date {
+  color: rgba(255, 255, 255, 0.544);
+}
+
+.content {
+  background-color: rgb(0, 0, 0, 0.3);
+  padding: 2rem;
+  border-radius: 2rem;
 }

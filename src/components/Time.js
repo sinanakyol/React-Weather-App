@@ -7,6 +7,16 @@ function Time() {
   let year = today.getFullYear();
   let hour = today.getHours();
   let min = today.getMinutes();
+  const weekday = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
+  let curday = weekday[today.getDay()];
 
   const checkTime = (i) => {
     if (i < 10) {
@@ -19,7 +29,12 @@ function Time() {
 
   const date = day + "." + (month + 1) + "." + year + " " + hour + ":" + min;
 
-  return <div className="date">{date}</div>;
+  return (
+    <div className="date">
+      <p>{date}</p>
+      <p>{curday}</p>
+    </div>
+  );
 }
 
 export default Time;

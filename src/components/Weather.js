@@ -38,7 +38,7 @@ function Weather() {
       </div>
 
       {typeof weather.main != "undefined" ? (
-        <div>
+        <div className="content">
           {/* Location */}
           <p className="name">
             {weather.name}, {weather.sys.country}
