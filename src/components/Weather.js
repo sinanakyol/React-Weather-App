@@ -28,7 +28,7 @@ function Weather() {
         <img
           className="gif"
           src="https://media.tenor.com/ELtvRmeTcTYAAAAM/earth.gif"
-          alt="ANİMATİON"
+          alt="earth.gif"
         />
       </div>
       <div className="search">
