@@ -22,9 +22,15 @@ function Weather() {
   console.log({ weather });
 
   return (
-    <div>
-      <h1 className="title">Weather App</h1>
-
+    <div className="container">
+      <div className="main_title">
+        <h1 className="title"> Weather</h1>
+        <img
+          className="gif"
+          src="https://media.tenor.com/ELtvRmeTcTYAAAAM/earth.gif"
+          alt="ANİMATİON"
+        />
+      </div>
       <div className="search">
         <input
           className="input"
@@ -36,7 +42,6 @@ function Weather() {
           Search
         </button>
       </div>
-
       {typeof weather.main != "undefined" ? (
         <div className="content">
           {/* Location */}

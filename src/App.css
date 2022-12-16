@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -19,11 +21,21 @@
   background-color: rgb(0, 0, 0, 0.7);
 }
 
+.container {
+  width: 300px;
+}
+
 .title {
   font-size: 3rem;
-  color: aquamarine;
-  margin-bottom: 3rem;
-  font-family: cursive;
+  color: rgba(20, 32, 208, 0.692);
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+}
+
+.main_title {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0 3rem 0;
 }
 
 .search {
@@ -38,18 +50,23 @@
   padding: 5px;
   border: none;
   outline: none;
-  border-bottom: 2px solid aquamarine;
+  border-bottom: 2px solid tomato;
   width: 100%;
   font-size: 1rem;
 }
 
 .button {
-  padding: 8px;
+  padding: 5px;
   cursor: pointer;
-  background-color: tomato;
+  background-color: rgba(255, 99, 71, 0.773);
   color: #fff;
   border: none;
   border-radius: 5px;
+  font-family: "Orbitron", sans-serif;
+}
+
+.button:hover {
+  background-color: tomato;
 }
 
 .name {
@@ -87,6 +104,12 @@
 
 .content {
   background-color: rgb(0, 0, 0, 0.3);
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 2rem;
+}
+
+.gif {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
 }
