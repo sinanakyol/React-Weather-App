@@ -30,6 +30,7 @@
   color: rgba(20, 32, 208, 0.692);
   font-family: "Orbitron", sans-serif;
   font-weight: bold;
+  text-shadow: -4px 3px 0 #3a50d9, -14px 7px 0 #0a0e27;
 }
 
 .main_title {
